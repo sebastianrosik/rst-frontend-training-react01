@@ -8,7 +8,6 @@ export default class ShopForm extends React.Component {
   onSubmit(event) {
     event.preventDefault();
     let value = this.refs.inputVal;
-    console.log(value);
     this.props.onSubmit(value);
   }
   render() {
